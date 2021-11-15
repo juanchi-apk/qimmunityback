@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/prodpages",
+      "handler": "prodpages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prodpages/count",
+      "handler": "prodpages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prodpages/:id",
+      "handler": "prodpages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/prodpages",
+      "handler": "prodpages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/prodpages/:id",
+      "handler": "prodpages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/prodpages/:id",
+      "handler": "prodpages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

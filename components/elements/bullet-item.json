@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_bullet_items",
+  "info": {
+    "name": "bulletItem",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_banner2s",
+  "info": {
+    "name": "Banner2",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "banner2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.banner"
+    }
+  }
+}

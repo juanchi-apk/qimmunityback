@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_banners",
+  "info": {
+    "name": "banner",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "banner_title": {
+      "type": "string"
+    },
+    "banner_hexcolor": {
+      "type": "string"
+    },
+    "banner_small_title": {
+      "type": "string"
+    },
+    "banner_text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_elements_product_cards",
+  "info": {
+    "name": "productCard",
+    "icon": "poop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card_title": {
+      "type": "string"
+    },
+    "card_cta": {
+      "type": "string"
+    },
+    "card_box_title": {
+      "type": "string"
+    },
+    "card_box_cta": {
+      "type": "text"
+    },
+    "prodCard_Parallax": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "prodCard_link": {
+      "type": "string"
+    }
+  }
+}

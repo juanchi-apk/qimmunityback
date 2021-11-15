@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/seosem",
+      "handler": "seosem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/seosem",
+      "handler": "seosem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/seosem",
+      "handler": "seosem.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

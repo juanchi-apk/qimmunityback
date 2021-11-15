@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_service_boxes",
+  "info": {
+    "name": "serviceBox",
+    "icon": "edit"
+  },
+  "options": {},
+  "attributes": {
+    "boxTitle": {
+      "type": "string"
+    },
+    "boxItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service-item"
+    },
+    "boxCta": {
+      "type": "string"
+    },
+    "bgImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

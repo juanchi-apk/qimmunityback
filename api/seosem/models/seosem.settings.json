@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "seosems",
+  "info": {
+    "name": "SEOSEM"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seosem_banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.banner"
+    }
+  }
+}

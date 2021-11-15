@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_service_items",
+  "info": {
+    "name": "ServiceItem",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "itemTitle": {
+      "type": "string"
+    },
+    "itemtext": {
+      "type": "string"
+    }
+  }
+}

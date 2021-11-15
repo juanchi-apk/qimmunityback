@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prodpages",
+  "info": {
+    "name": "prodpages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.banner"
+    },
+    "reasonitem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.bullet-item"
+    },
+    "title": {
+      "type": "string"
+    },
+    "ReasonCTA": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "pageServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.service-box"
+    }
+  }
+}
